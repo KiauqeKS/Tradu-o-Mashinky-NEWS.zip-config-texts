@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="0BR2F01C" caption="Português Brasileiro" icon="FBCC4BEF">
+<string name="10000001">\i98098DF0 map/help/news_aircrafts.gif
+26/04/2025
+\i98098DF1 \bAeronaves modernas\b
+- Adicionadas 16 novas aeronaves (4 tipos com 4 variantes diferentes)
+
+\i98098DF1 \bQualidade de vida:\b
+- Adicionada possibilidade de mover a câmera aproximando o cursor da borda
+ da tela(funciona também em modo janela) e pode ser desativado nas
+ configurações/jogo
+
+\i98098DF1 \bCorreções:\b
+- Algoritmo de colocação de trilhos melhorado para mostrar erros em espaços
+  não vazios ao invés de oferecer curvas malucas
+- Câmera elevada 25% acima do terreno
+- Botões do hangar corrigidos
+- Quando múltiplas janelas de veículos estão abertas, selecionar lista 
+  de rotas exibirá pré-visualização em apenas uma delas
+- Veículos rodoviários não ultrapassam quando não é realmente necessário
+  (esperam em congestionamentos etc)
+- Contagem do progresso da companhia (número de aviões etc corrigido)
+- Colocação ou atualização de infraestrutura aplicada corretamente no balanço
+- Balanço agora possui tooltip correto (antes faltavam algumas linhas)
+- Trens não carregam/descarregam em um único save (índices de edifícios
+  também estavam inconsistentes após mudanças recentes)
+- Barra de ferramentas da sobreposição agora tem tamanho correto usando
+  opção automática
+- Plataformas das estações possuem paredes corretas quando próximas
+  ao aeroporto
+- Aviões encontram corretamente o caminho até o destino quando possível 
+ (antes detectava obstáculos mesmo quando a sobreposição não mostrava nada)
+- Capacidade e uso de eletricidade das usinas corrigidos
+- Transição de trilhos eletrificados e outros corrigida
+- Corrupção de arquivos de save em alpha quando avião tinha pista reservada
+  (até 5 tiles da pista)
+- Suavização geométrica de cruzamentos rodoviários
+- Posicionamento das setas de estrada de mão única em inclinações
+- Colocação incorreta de estradas como séries de curvas diagonais corrigida
+- Círculos de colocação de trilhos melhorados
+- Transição de tipos de trilhos mais altos para mais baixos (incluindo
+  pathfinding)
+- Obtenção da próxima peça de trilho quando a versão é irrelevante
+- Tipo de trilho destacado no túnel
+- Remoção de trilho com sinal usando ferramenta de remoção (quando 
+  arrastar e soltar sobre seção maior)
+- Música tocando após início
+- Colocação de múltiplos sinais
+- Destaque de caminho em túnel
+
+
+
+\i98098DF0 map/help/news_santa2024.gif
+12/12/2024
+\i98098DF1 \bMissão de Natal 2024\b
+- Adicionada missão de Natal 2024
+- Adição automática de motoristas nos trens modificados (ajustado 
+  manualmente para todas as locomotivas atuais da oficina)
+
+\i98098DF1 \bQualidade de vida:\b
+- Possibilidade de cancelar a cópia da lista de rotas de trem
+  existente ao usar "+"
+- Ordem crescente / decrescente em listas
+- Cenários agora mostram data e hora modificadas
+- Janela de dicas onde você pode ver todas as animações da 
+  tela de carregamento
+- Passageiros preferem destinos menos ocupados (quando estes destinos
+  são melhor servidos e passageiros estão faltando)
+- Lista de rotas agora acessível pelo canto inferior direito
+- Força do salto e velocidade de corrida aumentadas para facilitar uso
+  do modo caminhada
+
+\i98098DF1 \bCorreções:\b
+- Tamanho da caixa de seleção dos ícones inteligentes na barra de
+  sobreposição
+- Altura da barra de sobreposição corrigida quando filtros estão disponíveis
+- Visibilidade do número de edifícios da cidade afetados por upgrades corrigida
+- Forma estranha do trilho corrigida quando na mesma tile inclinada que curva
+  de estrada
+- Intensidade de arranhões em gifs animados reduzida
+- Ícones de filtro na barra de sobreposição corrigidos
+- Crash ao carregar save com nome de veículo destruído vazio corrigido
+- Escurecimento estranho em janelas da UI corrigido
+- Carro preso em algumas circunstâncias corrigido
+- Crash potencial no gerenciador de usinas corrigido
+- Crash potencial no cache de sinais corrigido
+- Corte de ícones de filtro de carga na janela de substituição corrigido
+- Carga do filtro de substituição respeita tipo de veículo escolhido
+- Destaque da rota quebrado no primeiro tile (locomotiva) corrigido
+- LOD do vagão de ferro corrigido
+- Crash ao usar som de script de missão corrigido
+- Carimbos com sinais corrigidos
+- Crash ao pular dentro da locomotiva anã vermelha corrigido
+
+
+
+\i98098DF0 map/help/news_driver.gif
+04/09/2024
+\i98098DF1 \bMotoristas &amp; Pilotos\b
+- Cada caminhão ou ônibus agora tem seu próprio motorista (aparência visual
+  randomizada internamente pelo índice do veículo usado como semente). 
+  Animaçãoé conduzida pelas rodas dianteiras e inclui volante.
+- Cada locomotiva também tem seu próprio motorista (índice do veículo e
+  do vagão usados juntos como semente para aparência aleatória). A animação
+  ocorre apenas de acordo com o tempo decorrido.
+- Cada avião tem seu próprio piloto (índice do avião usado como semente para
+  aparência visual). A animação também ocorre apenas de acordo com o tempo
+  decorrido.
+- Aparência visual combina partes do modelo randomizadas e coloração por 
+  parte. Em alguns casos, pode também escolher gênero diferente.
+- Existem várias animações diferentes escolhidas de acordo com assento do
+  motorista e posições de controles do veículo.
+- Aparência visual escolhida de acordo com tipo de veículo (diferente para
+  locomotivas a vapor e diesel/elétrica, por exemplo).
+- Modelo do motorista é oculto quando controla o veículo manualmente.
+
+\i98098DF1 \bUI\b
+- Posições da câmera agora visíveis apenas quando a câmera olha para elas.
+  Isso deixa a UI um pouco mais clara
+- Também há possibilidade de ativar/desativar motoristas nas configurações 
+  gráficas
+- Visualização do plano de substituição de veículos melhorada para facilitar
+  orientação
+
+\i98098DF1 \bJogabilidade\b
+- Adicionada substituição automática de veículos baseada na idade
+- Velocidade do asfalto das estradas aumentada
+- Filtro de carga na lista da indústria agora funciona
+- Iniciar todos / Parar todos os veículos na lista agora funciona corretamente
+  quando filtro ativo
+
+\i98098DF1 \bVisual\b
+- Adicionado interior BR 3
+- Adicionado shader de queima para veículos destruídos mudarem de aparência
+- Buracos no terreno (pedreiras etc) corrigidos em modo construção com
+  sobreposições
+- Adicionado halo fresnel mais brilhante ao redor de objetos (mais agradável
+  visualmente)
+- Campos renderizados à distância, em modo construção e perto do mar
+- Mas campos não visíveis em modo construção exceto cor do solo, melhorando
+  visibilidade ao colocar trilhos
+- Corrigido glitch visual com ruído de polígonos horizontais de árvores
+  sobrepostas em modo construção
+- Cascalho/concreto do solo agora visível em modo construção mesmo atrás da
+  distância de renderização
+- Bordas de campos agora corretamente posicionadas em modo construção
+- Corrigido: glitch na borda do mapa ao usar qualquer sobreposição
+
+\i98098DF1 \bOtimizações\b
+- Removida saída de debug que causava grande queda de FPS
+- Streamer de arquivos movido de thread sync para render (thread sync crítica
+  para performance)
+- Performance de sombras melhorada (invalidação de cascades corrigida)
+- Preparação de chunks do terreno otimizada na CPU
+- Sincronização do overlay otimizada na GPU
+- Atualizações de edifícios distribuídas em múltiplos ticks de frame
+- Computação de bounding box de veículos otimizada
+- Requisitos de memória GPU reduzidos em ~36MB
+
+\i98098DF1 \bCorreções\b
+- Crash na sincronização do overlay após mudança de tamanho do 
+  mapa corrigido
+- Ângulo da câmera corretamente orientado ao mudar para câmera de edifício
+- Sons de edifícios agora por índice de parte do edifício, podendo haver
+  múltiplos por edifício e reagir a adição/remoção ou upgrade de parte
+- Música agora pode ser modificada (via zip)
+- Upgrades de indústria modificados corretamente ativados em sua era
+- Remoção de upgrade que mudava apenas aparência de parte do
+  edifício corrigido
+- Regras de upgrades de edifícios modificados corrigidas
+- Consistência do auto-heal de cidades inválidas em savefiles corrigida
+- Visibilidade de upgrades de edifícios na janela do editor corrigida
+- Crash em lista de rotas multiplayer corrigido
+- "Plantas fora de limites" assert/crash corrigido
+- Detecção de veículos em cruzamentos ferroviários corrigida (antes podia falhar)
+- Auto-heal parcial após edifício perder representação no mapa corrigido
+- Anticrash para crash de modelo animado em motoristas (ao invés de crashar
+  o jogo, motorista é ignorado)
+
+\i98098DF0 map/help/news_vehicles.gif
+04/04/2024
+\i98098DF1 \bNovos veículos rodoviários\b
+- Caminhão Blitz 3ª era para mercadorias
+- Caminhão Blitz 3ª era para areia
+- Caminhão Blitz 3ª era para correio
+- Ônibus 4ª era
+- Caminhão Zilon 4ª era para toras
+- Caminhão Zilon 4ª era para tábuas de madeira
+- Caminhão Zilon 4ª era para aço
+- Caminhão Trambus 4ª era para carvão
+- Caminhão Trambus 4ª era para petróleo bruto
+- Caminhão Trambus 4ª era para areia
+- Ônibus 5ª era
+- Caminhão Wack 5ª era para carvão
+- Caminhão Wack 5ª era para minério de ferro
+- Caminhão Wack 5ª era para aço
+- Caminhão Wack 5ª era para calcário
+- Caminhão Ania 5ª era para cimento
+
+\i98098DF1 \bCorreções\b
+- Portas animadas do depósito de estrada corrigidas
+- Locomotiva fundida a outro trem corretamente desvinculada da lista de rotas
+- Corte de ícone de filtro de carga na janela do depósito corrigido
+- Atalho incorreto no modo motorista corrigido
+- Diversos pequenos ajustes e correções
+
+\i98098DF0
+22/02/2024
+\i98098DF1 \bListas de rotas compartilhadas\b
+- Ocultas até que o jogador decida usá-las
+- Visualização ao passar o mouse sobre lista de rotas compartilhada
+- Cor da lista de rotas selecionada por tipo de carga
+- Possibilidade de filtrar listas de rotas compartilhadas por carga
+- Estatísticas visíveis sobre veículos compartilhando a mesma lista de rotas
+- Apenas listas de rotas compartilhadas não atribuídas podem ser removidas
+- Nova aba na janela de listas com todas as listas compartilhadas e
+  possibilidade de filtrar veículos pela lista selecionada
+
+\i98098DF1 \bCorreções\b
+- Adicionada seleção de nomes de cidades nas ferramentas de conteúdo e
+  ferramentas de terreno
+- Buracos no terreno que permaneciam atrás da distância de renderização 
+  corrigidos
+- Buracos no terreno ausentes em pedreiras de calcário e outros edifícios
+  parcialmente subterrâneos corrigidos
+- Crash ao carregar veículo fora do mapa (causado por mod antigo) corrigido
+- Clipping de texto na UI corrigido
+- Recuperação automática após avião entrar em estado inválido (trilho 
+  errado no chão)
+- Verificação da validade das listas de rotas após carregamento
+- Nova janela aberta posicionada em espaço livre na tela em vez de sobrepor
+  elementos ou sair da tela
+- Correção para carregamento de mais de 128 cidades. Novo máximo definido
+  para 246 cidades
+
+
+
+\i98098DF0
+30/09/2023
+\i98098DF1 \bAviões &amp; Aeroportos\b
+- Adicionado novo tipo de veículo de transporte - Aviões
+- Adicionada infraestrutura terrestre - instalações de aeroportos antigas e novas
+
+\i98098DF1 \bAviões\b
+- Atualmente há 17 aviões no jogo
+- É possível transportar tipos limitados de carga por avião (passageiros,
+  correio, mercadorias e comida)
+- Forma de transporte bastante cara para passageiros/carga, mas
+  extremamente rápida
+- Aviões planejam inteligentemente caminho de um aeroporto para outro, e dentro
+  do próprio aeroporto
+- Você pode gerenciar aeroportos na lista de rotas, adicionar waypoints aéreos ou
+  até usar tiles específicos de pista / taxiway como waypoints
+- Aviões reservam pista 5 tiles antes do pouso, podendo cancelar a manobra e
+  circular pelo aeroporto
+- Podem aguardar no último cruzamento de taxiway antes de pátios ocupados
+  ou passar por hangares se ficarem presos
+- Podem alterar altitude enquanto circulam pelo aeroporto para evitar obstáculos
+- Cada avião requer comprimento de pista diferente e pode exigir tipo moderno
+  de pista, podendo ter altitudes de voo distintas
+- Adicionado nova visualização de obstáculos ao redor de aeroportos (terreno,
+  edifícios ou árvores podem impedir decolar/pousar)
+- Aviões podem ser controlados na perspectiva do piloto, embora seja difícil
+  durante voo :)
+- Aviões usam combustível apenas durante voo
+
+\i98098DF1 \bAeroportos\b
+- Você pode projetar seu próprio aeroporto colocando tiles de pista um por um,
+  taxiways, cruzamentos, pátios de aeroporto, prédios e hangar
+- Também é possível criar, compartilhar ou usar stamps de aeroportos 
+  interessantes facilitando reutilização
+- Aeroporto minimalista precisa de pista e pátio (2x1 tiles), mas a parte real do
+  edifício pode se sobrepor a outro pátio de aeroporto, permitindo designs únicos
+- Vários stamps básicos incluídos para inspiração
+- Aeroporto possui sinais automáticos para controlar movimento de aviões
+  mantendo máxima eficiência. Pista possui sinais nas duas extremidades
+  reagindo à reserva de avião. Pista e pátio têm também sinal de entrada e
+  hangar/saída sinal de saída. Existem áreas exclusivas para um avião: pátios,
+  hangar e pistas. Taxiways permitem múltiplos aviões alinhados, com buffer entre
+  carregamento/descarregamento e pouso/decolagem.
+- Pistas de aeroporto possuem grande distância de poluição de 4 tiles, melhor
+  colocá-los afastados da cidade
+- Aeroportos podem se combinar naturalmente com outros tipos de transporte e
+  atuar como hub de transporte usando destinos de passageiros
+- Pode haver túneis ferroviários ou rodoviários sob o aeroporto, facilitando
+  combinações
+- Aeroportos antigos podem ser facilmente atualizados para novos quando 
+  upgrade é desbloqueado em era específica
+- Taxiways são apenas de mão única e ícones de aviso mostram entrada/saída
+  ausente ou estrada inoperante
+- Cada pista tem seu próprio número mostrado nas extremidades e na lista de
+  rotas quando usada como waypoint
+
+\i98098DF1 \bUI &amp; jogabilidade\b
+- Aviões podem ser gerenciados similar a outros transportes, duplicados,
+  substituídos por tipos novos, dirigidos manualmente etc.
+- Ícones de aviões maiores, janela do hangar e listas atualizadas
+- Aviões não podem ser parados ou virados no ar ou durante pouso/decolagem
+- Novo parâmetro dinâmico na janela de info do avião: "acumulação de pista",
+  mostrando quantos tiles o avião precisa para acelerar/desacelerar na pista e
+  se isso afeta possibilidade de decolar, parar ou virar da pista para taxiway.
+  Útil ao pilotar avião manualmente
+- Aeroporto também possui atalhos de keybindings para construção mais rápida
+- Mensagens de erro quando avião não consegue alcançar destino, exige tipo
+  diferente ou comprimento de pista etc.
+
+\i98098DF1 \bMissões\b
+- Várias novas missões relacionadas a aviões adicionadas
+- Algumas outras missões podem ser concluídas agora usando aviões
+
+\i98098DF1 \bGráficos\b
+- Além da nova sobreposição de visualização de obstáculos de voo, várias
+  melhorias devido aos aviões
+- Cada parte do veículo pode ser animada independentemente (para rodas e
+  hélices)
+- Inércia do veículo dividida em inércia terrestre (padrão) e aérea, aviões
+  fazem transição suave entre elas ao decolar/pousar
+- Múltiplos geradores de partículas em cada veículo
+- Diferentes rotações das partes do avião em solo e ar (rodas traseiras tocam
+  chão apenas quando velocidade insuficiente para decolar. Ajuda a ver se
+  "acumulação de pista" é suficiente)
+- Animação pode ser conduzida por potência ao invés de velocidade
+  (usada também para hélices)
+- Hélices rotativas podem mudar para versão borrada quando potência > 50%
+- Veículos controlados por IA aumentam potência suavemente, hélices giram
+  gradualmente
+- Visualização do plano de caminho do veículo possui "sombras" em modo
+  construção, facilitando ver altura
+- Possível ativar visualização do caminho mesmo em câmera realista para 
+  ajudar a pilotar avião
+- Aviões caem ao chão ao se acidentarem
+
+
+\i98098DF1 \bCorreções\b
+- Corrigidas câmeras internas para veículos virados
+- Corrigido peso da velocidade do veículo ao planejar destinos 
+  de passageiros
+- Melhorada janela de configuração de stamp (agora cada tipo de 
+  infraestrutura pode
+  ser selecionado de forma independente)
+- Ícones do motor/vagão na lista de substituição virados corretamente
+- Corrigido posicionamento de curva de mão única no mesmo tile que
+  trilho diagonal
+- Corrigido fim de linha do texto do tutorial de lixo em tcheco
+- Corrigido erro de digitação na legenda ao colocar sinais
+- Corrigido crash no path finder em algumas circunstâncias raras
+- Adicionadas cores nas listas de rotas
+- Corrigido flickering do skybox
+
+
+\i98098DF0
+19/05/2023
+\i98098DF1 \bSem borda\b
+- Adicionado modo sem borda, resoluções diferentes de jogo e UI possíveis
+- Adicionada tela de carregamento quando a janela inicializa ou redimensiona
+- Sem borda ativado por padrão, também oferecido como opção padrão
+  para todas instalações antigas do jogo
+
+\i98098DF1 \bModo motorista\b
+- Adicionado melhor controle do motorista (visualização à frente)
+
+\i98098DF1 \bMelhorias\b
+- Adicionado AI que aumenta/diminui aceleração suavemente (uso apenas
+  visual, não afeta aceleração real)
+- Adicionada possibilidade de animação por cada parte do vagão
+- Ao adicionar waypoint, apenas ícones de paradas alcançáveis são visíveis
+- Ao adicionar waypoint, apenas o mesmo tipo de veículo é visível
+ (para copiar lista de rotas)
+- Adicionados botões Anterior/Próximo para veículos, estações, 
+  edifícios, depósito
+- Manter a aba selecionada ao alternar para item anterior/próximo
+ (veículo/parada/depósito/edifício)
+- Melhoradas cores de inverno para solo, grama e árvores
+
+\i98098DF1 \bMods\b
+- Adicionado: Todo tipo de carga de lixo deve afetar área de poluição da estação
+- Adicionado: Flags das partes do vagão "visible_when_power_at_least
+ _50_percent", "visible_when_power_below_50_percent", "visible_when
+ _altitude_at_least_2", "visible_when_altitude_below_2", 
+  "pivot_with_inertia", "animate_speed_by_power"
+- Adicionado flag TrackType/Version "alter_wall", capaz de mudar parede
+ interna da estação para AccessoryType/Version/hipoly4
+- Quando múltiplos mods locais detectados em MP, apenas os primeiros 10
+ (e soma do  total) são mostrados em aviso em vez da lista completa
+- Adicionada possibilidade de especificar tipo de terreno com grande
+  rio no mapa
+- Corrigido param animspeed coletado corretamente do xml mesmo 
+  usando formato antigo de veículo
+- Corrigido uso de asset 3D com "2" no final (animado),
+  mesmo sem animação
+- Corrigido crash ao remover edifício industrial (removendo mod)
+
+\i98098DF1 \bScripts\b
+- Adicionado GetNumUpgrades melhorado para contar upgrades de todos
+  edifícios de tipo específico
+- Adicionada função Script int GetVehicleType(vehicle);
+- Adicionada função Script string GetListOfVehiclesByMaxSpeed
+  (vehicleTypeFilter, hashTypeFilter, maxListSize);
+- Adicionada função Script string GetListOfVehiclesByMaxSpeedReached(
+  vehicleTypeFilter, hashTypeFilter, int maxListSize);
+- Adicionada função Script string GetListOfVehiclesByMaxAge
+  (vehicleTypeFilter, hashFihashTypeFilterter, int maxListSize);
+- Adicionada função Script string GetListOfCitiesByPopulation(maxListSize);
+- Modificadas quests 45-NeedForSpeed e 56-DeliveryTele
+- Modificada função GetRemoteQuestVariable para retornar qualquer tipo 
+  conversível para string
+
+\i98098DF1 \bBalanceamento\b
+- Modificada redução da classificação de carga de estação em 25x
+- Modificados veículos rodoviários não ultrapassarem outros 
+  veículos em estação
+- Modificado entrega de cimento afeta crescimento da cidade novamente
+- Modificada penalização reduzida por passar por estação não-destino
+
+\i98098DF1 \bCorreções\b
+- Corrigido veículo desacelerando removido antes de cruzamento quando a outra
+  saída é beco sem saída
+- Corrigidos botões de troca de tipo de terreno no editor
+- Corrigida consistência do rosto ao carregar save
+- Corrigidos sinais de stamp em túneis
+- Corrigido Save/load do último ID de parada carregada (para escolher destino
+  corretamente em autorotamento)
+- Corrigida remoção seletiva de sinal ferroviário
+- Corrigido bloco de sinal amarelo
+- Corrigido flickering do brilho do sinal com TXAA ativado
+- Corrigido desempenho ao recalcular redundante paths movendo janela 
+  de info do veículo (devido à reselection de veículo conforme foco)
+- Corrigido desperdício de performance em pesquisa repetitiva de
+  path em alguns casos
+- Corrigido remoção de toda indústria no mapa no editor
+- Corrigido alinhamento de pixel ao upscaling de imagem
+- Corrigido render de superfícies transparentes
+- Corrigido cores exageradas em destaque de seleção
+- Corrigido fim de trilho posicionado errado em algumas circunstâncias
+- Corrigido flickering da barra de carregamento ou face do chefe
+- Corrigidos botões no depósito conforme tipo de veículo
+- Corrigido crash raro ao abrir lista de veículos
+- Corrigida interpolação de movimento em curvas (8 pontos de curva 
+  -> 256 precalculados)
+- Corrigido ALT pressionado permanecia após Alt-Tab, mostrando todos ícones
+- Corrigido espaço fantasma não clicável na aba bônus do depósito
+- Corrigida consistência da barra inferior do depósito
+- Corrigidos alguns ícones de veículos faltantes após load
+- Corrigido flickering de caminho de veículo destacado 
+ (sumindo e reaparecendo)
+- Corrigido cache de posição do veículo (melhor performance)
+- Corrigido full throttle ao entrar/sair do veículo
+- Corrigido stamps incluindo estações próximas a outra estação
+- Corrigido stamps influenciando upgrades de estação 
+  (WIP, ainda alguns problemas)
+- Corrigida abertura errada da janela de estação ao criar stamp
+- Corrigida duplicação de veículo por depósito de tipo errado
+- Corrigido crash no pathfinder
+- Corrigidas colisões ignorando paredes laterais de trilhos cortadas
+
+
+\i98098DF0
+19/12/2022
+\i98098DF1 \bNatal\b
+- O Natal está chegando em nossa terra, mas por algum motivo várias
+  crianças pobres estão faltando na lista do Papai Noel. Esperamos
+  que ainda tenhamos tempo para corrigir isso e garantir que cada 
+  criança tenha um Natal verdadeiramente feliz.
+- Este evento de temporada também é meu teste de algumas atualizações de
+  planícies e aeroportos, estou trabalhando nisso atualmente.
+
+\i98098DF1 \bCorreções\b
+- Árvores piscando
+- Corrigida conexão do 5º jogador em algumas circunstâncias
+- Corrigido LOD dithering para veículos
+- Ícones simplificados de estação ainda mostravam índice
+  da lista de rotas
+- Textos localizados atualizados
+
+\i98098DF0
+08/07/2022
+\i98098DF1 \bLixo\b
+- Níveis mais altos de edifícios produzem lixo
+- Estação com muito lixo produz área de lixo ao redor
+- Área de lixo limita algumas funcionalidades de construção da cidade
+- Jogador pode transportar lixo para fora da cidade (para aterros ou 
+  usar em planta de reciclagem ou incinerador próximo à usina de carvão)
+- Adicionados 2 caminhões de lixo e 2 vagões de lixo
+- Área de lixo também é visualizada sobre edifícios e infraestrutura 
+ (lixo espalhado por toda parte). Pode ser desligado na configuração.
+- Edifícios desativados agora visualmente parecem abandonados. 
+  Também pode ser desligado
+  na configuração.
+
+\i98098DF1 \bQualidade de vida\b
+- Desativação de regras em edifícios (no multiplayer, afeta apenas 
+  sua empresa, outros ainda podem se beneficiar)
+- Cursor de rotação/movimento (bússola e posição relativa no tile do mapa)
+- Filtros na sobreposição da indústria, mostrando produtores e consumidores
+  facilmente
+- Estrelas indicando novos itens (edifícios, vagões, locomotivas, tipos
+  de trilho etc.)
+
+\i98098DF1 \bRenderização\b
+- TXAA, antialiasing temporal melhora bordas e reduz ruído na tela
+- Filtragem anisotrópica, torna texturas mais nítidas e detalhadas
+- Efeito de sharpening pós-processamento, compensando suavidade do 
+  TXAA. Deixa tela mais nítida
+- Sombras no modo construção. Dá mais plasticidade e atrativos visuais
+
+\i98098DF1 \bOtimizações\b
+- Precache de objetos de sombra para render thread
+- Melhor frustum culling do terreno
+- Cache de interconexões de sinais para atualização mais rápida
+- Melhor marcação de profiler de frames (permite buscar picos de 
+  script também)
+- Acelera carregamento (pulando reload de mods quando não necessário)
+- Corrigidos crashes e desperdício de performance em verificações
+  de regras de edifício
+
+\i98098DF1 \bCorreções\b
+- Veículos presos juntos
+- Float point nos custos de motor na janela do veículo
+- Quando classificação de carga da estação chega a zero, não
+  há drenagem até que: Usuário desative produção de carga ou 
+  exista outra estação próxima com carga positiva
+- Filtragem anisotrópica também para vegetação
+- Possibilidade de pular requisitos de mod ao salvar cenário no editor
+- Melhor path-finding de trens ignora sinais atrás do primeiro
+  destino (ainda precisa caminho válido para o segundo destino)
+- Trens/vagões descarrilando sem motivo
+- Crash raro multithread ao abrir janela de criar/join company 
+  enquanto valor da
+  empresa é atualizado
+- Crash ao interagir com janela de depósito
+- Regra de edifício desativada automaticamente se nenhuma estação
+  próxima aceita produtos
+- Corrigido ícone do mapa ausente quando trem não tem nome
+- Às vezes ferramenta de colocar sinais não mostra setas corretamente
+- Mostrando quantidade de carga em prédio/parada
+- Renderização de fios elétricos
+- Mensagem de “veículo inútil” pode ser agregada
+- Parede sob loja de alimentos
+- Máscara de neve consistente entre hipoly e lowpoly
+- Possibilidade de pular tela de splash permanentemente
+- Primeiro sinal padrão é mão única (exceto dificuldade fácil)
+- Destaque de caminho no lado correto da estrada 
+ (principalmente em pontes)
+- Problema de degrau em estrada conectada a ponte
+- Máscara de neve em ponte rodoviária suspensa e ponte 
+  ferroviária de arco de aço
+- Modelo de edifício também muda quando limitado por lixo
+- Ícone acima do edifício (overlay da cidade) e janela de
+  info mostram limitação por lixo
+- Dica de upgrade de luxo não visível até era correta
+- Carregamento de estações com mais de um tile será
+  desativado (mods raros)
+- Nível mais alto de edifícios e áreas de luxo movidos para 6ª era
+
+\i98098DF0
+08/07/2022
+\i98098DF1 \bCorreções\b
+- Corrigidos veículos presos em estradas de mão única
+- Corrigido crash ao remover parada quando algum veículo
+  tem apenas uma linha na lista de rotas com este ID
+- Ícones de tokens voando sincronizados em MP
+- Corrigido glitch de profundidade de campo
+- Consistência de ativação/desativação de mods locais
+- Corrigida legenda de “senha protegida” na nova janela de jogo
+- Corrigido crash na saída de rating de MP
+- Corrigido situação onde trem entra em depósito de 
+  outro jogador (trem sai automaticamente
+  em vez disso, proprietário controla seu trem em qualquer depósito)
+- Classificação da estação de todos os tipos de carga sempre visível 
+ (mesmo caindo a zero)
+- Corrigida remoção de tile de estação separado errado
+- Corrigido crash ao remover monitor onde jogo estava rodando
+- Corrigido crash ao script de vidro adicionar upgrade a
+  edifício inexistente
+- Corrigida visibilidade das setas de sinal quando destaques ativos
+- Corrigido fog no céu
+- Corrigido envio de enter ao digitar senha (era interpretado como submit)
+- Corrigido flickering de estradas no modo construção
+- Corrigido “sol negro” no céu
+- Corrigida sombra ausente nos trilhos
+- Corrigido crash ao desligar sombras
+- Cursor restante após cancelar ação de construção
+- Corrigido FOV inválido no setup.xml, usa padrão
+- Corrigido exibição de recompensa estimada de veículo no multiplayer
+- Corrigido exibição de bloco de sinal no multiplayer
+- Corrigidos descarrilamentos de trens/veículos sem motivo
+- Crash raro multithread ao observar janela de empresa
+- Crash ao interagir com janela de depósito
+
+\i98098DF0
+11/04/2022
+\i98098DF1 \bCorreções Multiplayer!\b
+- Corrigidos problemas de conexão, timeout
+- Corrigidos enormes lags no MP, especialmente ao modificar o terreno
+- Corrigido abrir detalhes do veículo se alguém comprá-lo 
+  enquanto múltiplos jogadores estão na mesma empresa
+- Corrigidos vazamentos de decalques adiados (deferred decals add/remove)
+- Corrigido assert ao sincronizar trem no MP
+- Corrigido uso de botões de quest quando múltiplos 
+  jogadores na mesma empresa
+- Corrido overlay de eletricidade
+- Corrigido input do nome do arquivo ao autosave
+- Corrigida consistência do MP quando a cidade realoca edifício
+- Corrigido overflow de hash de string ao usar alfabeto não latino
+- Ao alternar para modo 1ª pessoa no multiplayer, velocidade do
+  tempo permanece
+- Caminhada no modo 1ª pessoa segue tempo do sistema, não do jogo
+  (jogo pode estar pausado ou acelerado)
+
+\i98098DF0
+11/04/2022
+\i98098DF1 \bMultiplayer!\b
+- Agora você pode jogar com até 8 jogadores no mapa! Basta habilitar
+  multiplayer ao iniciar um novo jogo ou em um save antigo. Isso
+  inicia o servidor e qualquer pessoa pode se conectar.
+- Configuração fica no savefile, então ao recarregar o jogo o servidor 
+  ficará online. Cada jogador se conecta automaticamente à sua empresa.
+- Conexão peer-to-peer, mas você pode hospedar sem IP público.
+
+- Adicionada classificação na distribuição de carga das estações. No 
+  MP, é importante  recolher sua carga com frequência para manter alta a
+  classificação da estação. Caso contrário, a indústria prefere  outra 
+  estação ou, quando a classificação chega a zero, redistribui a carga.
+
+- Empresas e jogadores são desacoplados na lógica do jogo. Você 
+  pode se juntar a empresas de outros jogadores ou criar a sua própria.
+
+- Múltiplas empresas podem cooperar em quests (algumas quests são 
+  compartilhadas por padrão). Você também pode proteger sua empresa com senha.
+
+- É possível compartilhar trilhos com outra empresa ou permitir que 
+  outras empresas modifiquem sua infraestrutura livremente.
+- Para impedir que outra empresa use seus trilhos compartilhados, você pode
+  colocar sinais “apenas para proprietário”.
+
+- Classificação da empresa! Placar (0-1000 pontos) mostra sucesso da empresa
+  (incluindo gráficos detalhados).
+
+- Quartéis mudam de acordo com classificação da empresa.
+
+- Janela de chat acessível via ~ ou ícone na barra. É fácil adicionar 
+  localização do mapa ou objeto na mensagem clicando nele.
+- Possibilidade de enviar tokens para outro jogador
+- Overlay do proprietário mostrando facilmente quais ativos pertencem
+  a cada empresa
+- Cada novo jogador ou empresa identificado automaticamente pelo 
+  nome Steam do criador
+- Novas opções ao iniciar novo jogo (se iniciar servidor, mods permitidos,
+  configuração padrão para novos jogadores cooperativos/competitivos)
+- Ver cursor de outro jogador no mapa ou “beam” especial no
+  modo 1ª pessoa
+- Cliente pode rodar mais rápido agora. Alguns eventos 
+  não simulados no cliente, apenas no servidor para liberar 
+  carga e prevenir cheats ou mods locais
+- Todos scripts rodam no servidor para permitir interações
+  e compartilhamento de quests
+- Possibilidade de conectar diretamente ao servidor via lista
+  de amigos Steam
+- Alguns scripts não compatíveis com processamento remoto são
+  removidos no MP
+- Mods ativados/desativados/baixados conforme servidor. Não altera
+  jogo single-player
+- Suavização de movimento de veículos e cursor do jogador quando 
+  servidor envia update
+- Novas possibilidades de script para identificar cada
+  jogador e cooperação interessante
+
+\i98098DF1 \bOutros\b
+- Sinal amarelo em cadeia faz veículo parar corretamente quando próximo
+  sinal na rota está vermelho
+- Melhor filtragem de sombras, intervalos, interpolação entr
+  e níveis CSM e resolução
+- Corrigidos brushes no editor
+- Corrigido tearing vertical da tela ao usar efeito de vinheta
+- Corrigido aquecimento da GPU no menu principal (FPS cap)
+- Corrigido limitador de FPS para maior precisão
+- Corrigido situações onde trem não carregava na primeira estação visitada
+- Corrigidos ícones inválidos com 100+ mods ativos
+- Corrigida área de captura de parada de estrada ao usar conexão automática
+- Corrigido Lod baker (polígonos sobre o mapa, objetos invisíveis)
+- Corrigidos vários crashes raros
+- Corrigidos aproximadamente 200 outros bugs, incluindo MP
+
+\i98098DF0
+02/11/2021
+\i98098DF1 \bApenas algumas correções!\b
+- Após a última atualização de performance, percebi que vários novos
+  bugs foram adicionados acidentalmente. Assim que os relatórios 
+  chegaram, comecei a trabalhar neles e lançar correções assim que concluídas.
+- Então, uma semana depois, seguem os detalhes das correções:
+- Corrigida funcionalidade de passagem de destino, destinos visíveis na janela
+  da parada, várias otimizações relacionadas
+- Corrigidos trens fantasmas (trem e ícone desalinhados)
+- Corrigidas estações sobrecarregadas com carga / passageiros
+- Corrigido desbloqueio de nova era armazenado corretamente no savefile
+- Corrigido escoamento de carga quando classificação cai para zero.
+  Causado por recurso oculto de classificação de carga. Esta correção
+  também corrige saves quebrados ao carregar.
+- Corrigida capacidade de crescimento da cidade
+- Corrigido chegada de passageiros / correspondência às estações antes da
+ chegada  do primeiro veículo
+- Corrigido remoção de ponte acima de estrada que causava remoção da estrada
+- Corrigido remoção de parte de cruzamento mantendo o resto intacto
+- Corrigidas legendas do hobby market e food shop
+- Corrigido novo rosto em multiplayer corretamente gerado ao conectar
+- Corrigido desincronização de movimento de trem no multiplayer
+- Corrigidos filtros na janela de ativos da empresa
+
+\i98098DF0
+02/03/2021
+\i98098DF1 \bAtualização de performance!\b
+- Focada em performance para preparar o jogo para multiplayer, mais veículos
+  em movimento e maiores desafios para engine e lógica do jogo.
+- Melhor desempenho do jogo, especialmente em velocidade mais alta
+- Melhorados lags e congelamentos com centenas de veículos simulados
+- Melhorados tempos de carregamento
+
+\i98098DF1 \bMelhorias de qualidade de vida\b
+- Lista de veículos quebrados em cada depósito, para recriar veículos
+  destruídos, incluindo sua routelist
+- Adicionada lista de veículos favoritos (incluindo routelist) para 
+  duplicar  facilmente veículos, mesmo os em movimento
+- Ícones circulares no modo caminhada podem ser facilmente ocultados
+   no modo realista (janela de transparência)
+
+\i98098DF1 \bNovos rostos\b
+- Devido ao lançamento do multiplayer, mais variações de rostos 
+  adicionadas, incluindo rostos femininos
+- Futuramente melhorias no gerador de rostos, mas o estado atual
+  já disponível
+
+\i98098DF1 \bOtimizações em detalhes\b
+- Otimizado AI de destino de passageiros
+- Otimizado adição/remoção de carga nas estações ao escolher destino
+- Otimizado destinos de carga em paradas
+- Otimizado cálculo de spline de trilhos
+- Otimizado eventos MP, sincronização de veículos, etc
+- Cliente pula processamento de eventos enquanto tela de 
+  carregamento ativa
+- Servidor pula envio de todos eventos após save de mapa não confirmado
+- Máx. de 1000 eventos enviados por tick de rede para não 
+  sobrecarregar cliente
+- Pré-cache de bônus de paradas e veículos
+- FPS limiter otimizado permitindo threads processarem enquanto 
+  tela de carregamento
+- Estrutura de dados de colisão veículo-veículo otimizada
+- Aproximação rápida de arc-tangent (precisão 0,01 rad)
+- Sin/Cos pré-calculados e aproximados em runtime
+- Atualização de 0-N cidades por tick em vez de todas de uma vez
+- Far geometry lod baking agora tem área suja em vez de 
+  checar todos os chunks
+
+\i98098DF1 \bCorreções\b
+- Corrigido autorouting ignorar estações com aceitação de 
+  carga desativada
+- Corrigido assert sobre final de trilho incorreto
+- Corrigidos tokens transparentes
+- Corrigida indústria não produzindo carga (causado por 
+  classificação 0, agora visível e vermelho)
+- Corrigido quest de era ausente ao carregar (possível causa: mods)
+- Corrigido parâmetro duplicado de parede no XML de tipos de edifício
+- Corrigidos glitches em novos rostos, alterado background
+- Corrigido crash quando cidade cresce
+- Corrigido assert na janela do depósito
+- Correção de visibilidade de ícones no modo caminhada reage 
+  corretamente à transparência
+- Corrigidos gráficos sobrepostos na janela de upgrade de parada
+- Corrigido posicionamento incorreto de rodas de veículos de
+  estrada em curvas
+- Corrigidos rostos quebrados em quests
+- Corrigido cálculo incorreto de distribuição de eletricidade
+- Corrigido adicionar veículos a favoritos na UI de depósito de
+  veículos de estrada
+
+\i98098DF0
+23/12/2021
+\i98098DF1 \bEvento de Natal!\b
+- Atualmente estamos rodando teste beta aberto de multiplayer 
+ (sinta-se à vontade para alternar na página de propriedades do jogo 
+  no Steam, aba Beta versions, escolher Experimental).
+- Mas para todos que permanecem na versão mais estável, decidi 
+  adicionar conteúdo extra. Então, o evento de temporada de
+  Natal foi habilitado também na versão padrão.
+- As regras são as mesmas do último evento de Natal: entregue
+  25 presentes para o máximo de centros da cidade possível e 
+  receba uma recompensa secreta para cada 5 cidades abastecidas.
+
+\i98098DF0
+28/05/2021
+\i98098DF1 \bAtualização da cidade\b
+- Agora você pode influenciar as cidades, incentivando crescimento
+  e ajudando representantes locais com planos urbanos. Com seu 
+  cuidado, as cidades podem se tornar metrópoles bonitas e
+  satisfatórias onde todos querem viver.
+- Para isso, você moldará as cidades colocando upgrades, construindo
+  estradas e decidindo onde a cidade deve crescer para satisfazer 
+  mais necessidades ou onde restringir o desenvolvimento urbano para
+  proteger novos habitantes da poluição industrial.
+
+\i98098DF1 \bNovo conteúdo\b
+- Mais de 50 prédios para suas cidades (diferentes níveis de
+  residenciais, tiles decorativos, prédios funcionais de upgrade)
+- Nova mecânica de cidades: zonas ao redor de upgrades. 
+  Incluindo novo overlay, ícones e tutorial
+- Cada prédio residencial tem 3-4 níveis diferentes com base
+  nas zonas presentes no local
+- Aparência dos prédios varia conforme a era
+- Calçadas adicionadas em algumas zonas para mostrar áreas
+  avançadas da cidade
+- A cidade agora tem uma praça central (com níveis baseados
+  no tamanho da cidade)
+- Prédios de decoração da cidade adicionados
+- Novo gerador de cidade capaz de usar pontes, túneis, rotacionar
+  prédios em direção à rua ou modificar terreno
+
+\i98098DF1 \bMelhorias e correções\b
+- Mais variações de cores para prédios adicionadas (8->16)
+- Upgrade de tipo de trilho agora possível via arrastar & 
+  soltar toda a área
+- Corrigido contador de tamanho da cidade (agora apenas 
+  residenciais são considerados)
+- Melhorias na renderização sem sombras (principalmente árvores)
+- Shader de decals diferido adicionado (usado para 
+  faixas de pedestres)
+- Janelas alinham-se corretamente ao espaço vazio mais próximo 
+  da posição preferida quando abertas
+- Ferramenta de terreno Ramp adicionada
+- Corrigido crash ao fechar janela enquanto coloca upgrade de indústria
+- Items de UI piscando agora usam seta para maior visibilidade
+- Mensagem da cidade quando incapaz de crescer; contadores 
+  não reiniciam, apenas congelam
+- Corrigido overlay de eletricidade e distribuição
+
+\i98098DF0
+02/12/2021
+\i98098DF1 \bAtualização menor\b
+- Cores melhoradas & pós-processo de vinheta
+- Últimos textos de localização
+- Corrigido crash ao interagir com prédio de mod inválido
+- Corrigido problema do Lod baker (possível otimização)
+- Corrigidas posições de câmera no motor Azakase/Isuzumo
+- Corrigido script para quest “visite 10 cidades”
+- Corrigidos cidades 1x1 em novo jogo
+- Corrigido overlay de eletricidade
+- Corrigido crash ao usar selo próximo à borda do mapa
+- Corrigidos callbacks de script do controlador de quests
+- Corrigidos fios borrados com DOF desligado
+- Corrigido nível de neve em terreno plano (agora reage mais
+  à altura máxima do mapa)
+- Corrigido upgrade de estrada de mão única
+- Corrigida regra do prédio glassworks
+
+\i98098DF0
+21/12/2020
+\i98098DF1 \b1024 mapas\b
+- Graças às últimas otimizações, foi possível implementar
+   mapas de 1024!  
+- Recomenda-se fortemente rodar mapas de 1024 em PCs 
+  com pelo menos 16 GB de RAM
+
+\i98098DF1 \bNovo cenário "1024_h_uk"\b
+- O primeiro cenário 1024 é sobre Reino Unido & Irlanda  
+- Dificuldade muito alta, desafio cuidadosamente preparado  
+- Baseado em dados reais (cidades, indústrias, até 
+  florestas e umidade da grama :) )
+
+\i98098DF1 \bPequeno segredo de Natal\b
+- Nova quest de Natal adicionada  
+- Prepare-se para utilizar sua rede ferroviária
+  para um bom propósito
+
+\i98098DF0
+11/12/2020
+\i98098DF1 \bGrandes otimizações\b
+- Performance da renderização de terreno de construção 
+  drasticamente melhorada (carregamento de terreno e 
+  renderização fake de polígonos)  
+- Renderização de veículos melhorada com early out  
+- Melhor ordem/gerenciamento de níveis de sombra CSM  
+- Budget de tempo para atualização de texturas de tiles de terreno  
+- Fading de lama com performance melhorada  
+- Raycasting de terreno completo melhorado  
+- Lista de áreas do mapa mesclando otimizada (corrige
+  freeze em nova era)  
+- Callback de script OnConstruct limitado a 1 por tick
+  (corrige freeze em nova era)  
+- Atualização de retângulos sujos após mudança de era  
+- Mudanças no terreno e objetos do mapa  
+- Alcances das sombras CSM agora reagem ao alcance de visibilidade
+
+\i98098DF1 \bUltra zoom out\b
+- Distância de visão prolongada, distância de zoom out  
+- Agora você pode ver o mapa inteiro, independente de qualquer coisa
+
+\i98098DF1 \bParadas de estrada de mão única\b
+- Adicionadas paradas em estradas de mão única e IA modificada
+  para usá-las corretamente
+
+\i98098DF1 \bMelhorias\b
+- Modo Walk permite entrar em túneis, colidir com árvores, colisão 
+  adequada com terreno próximo a prédios, pedreiras de areia e 
+  calcário em terreno inclinado, e reação adequada quando jogador
+  cai pelo terreno  
+- Física de aceleração das locomotivas melhorada (atrito do ar agora
+  considera velocidade real)  
+- Todas as câmeras de trem refeitas para permitir ver sinais da cabine
+  também reduzindo o tamanho de sinais para melhor visibilidade
+
+\i98098DF1 \bCorreções\b
+- Corrigido glitch visual de terreno de construção em Linux,
+  Mac e algumas GPUs Intel  
+- Corrigido mapa de umidade vazio (agora com padrão aleatório)  
+- Corrigido salvar/carregar valor do FPS limiter  
+- Corrigido overlay de indústria  
+- Corrigido efeito DOF no modo construção  
+- Corrigido AI de estações de mão única  
+- Corrigida iluminação e sombra em campos  
+- Corrigido neve no modo construção  
+- Corrigido fade prolongado de contornos no pós-processamento  
+- Corrigido desvanecimento de árvores e campos à distância  
+- Corrigido parada no final da estação  
+- Corrigida inclinação de câmera próxima ao chão  
+- Corrigido crash ao carregar (flags de paradas de mão única mal usadas)  
+- Corrigidos LODs do terreno ao alternar realista/construção 
+  (causava splits de polígonos errados)  
+- Corrigido terreno subterrâneo de campos (lama no modo construção)  
+- Corrigido veículos que davam ré em estações sem caminho válido  
+- Corrigido terreno/campos saturados  
+- Corrigido intensidade de pós-processamento em bordas  
+- Corrigida dessincronização do far clip ao trocar modos de câmera  
+- Corrigido SSAO do terreno  
+- Corrigido SSAO do terreno também em terrenos próximos, saias e reflexos  
+- Corrigidos objetos invisíveis no mapa  
+- Corrigido split de polígonos não atualizado (tile do mapa em 2 triângulos)  
+- Corrigido drain de performance ao iniciar novo mapa  
+- Corrigida estabilidade do pós-processamento em bordas
+
+\i98098DF0
+10/06/2020
+\i98098DF1 \bModo Primeira Pessoa\b
+- Coloque os sapatos e saia para andar!  
+- Novo modo Walk incluindo colisões, sprint, pulo, sons, ... :)  
+- Todos os objetos são acessíveis diretamente pelo modo Walk  
+- Câmeras dentro de veículos e prédios visíveis e fáceis de usar
+
+\i98098DF1 \bModo Motorista\b
+- Agora é possível dirigir trens!  
+- Você é o motorista, podendo alterar potência da locomotiva e usar freios  
+- Controle de cruzamentos, podendo seguir navegação automática ou manual  
+- Evitar colisões e parar o trem antes do final da estação (posição
+  correta afeta velocidade de carga/descarga)  
+- Também aplica-se a veículos rodoviários  
+- Possibilidade de gerenciar carga/descarga enquanto dirige, podendo 
+re-parar na estação e continuar
+
+\i98098DF1 \bSinais amarelos\b
+- Baseado em feedback da comunidade, sinais amarelos avisam sobre sinal 
+ vermelho à frente para desacelerar e preparar parada  
+- Para IA, funciona como sinal verde normal por enquanto  
+- Sinais de cadeia como entrada para múltiplas saídas ficam amarelos se
+  algum dos sinais seguintes estiver vermelho
+
+\i98098DF1 \bEstradas de mão única\b
+- Agora é fácil colocar estradas de mão única  
+- Veículos respeitam direção e podem ultrapassar mais facilmente  
+- Em cruzamentos, cada linha pode ser bidirecional 
+  (sem setas) ou mão única
+
+\i98098DF0
+10/06/2020
+\i98098DF1 \bModo Primeira Pessoa\b
+- Coloque os sapatos e saia para andar!  
+- Novo modo Walk incluindo colisões, sprint, pulo, sons, ... :)  
+- Todos os objetos são acessíveis diretamente pelo modo Walk  
+- Câmeras dentro de veículos e prédios visíveis e fáceis de usar
+
+\i98098DF1 \bModo Motorista\b
+- Agora é possível dirigir trens!  
+- Você é o motorista, podendo alterar potência da locomotiva 
+   e usar freios  
+- Controle de cruzamentos, podendo seguir navegação automática ou manual  
+- Evitar colisões e parar o trem antes do final da estação (posição 
+  correta afeta velocidade de carga/descarga)  
+- Também aplica-se a veículos rodoviários  
+- Possibilidade de gerenciar carga/descarga enquanto dirige, podendo 
+  re-parar na estação e continuar
+
+\i98098DF1 \bSinais amarelos\b
+- Baseado em feedback da comunidade, sinais amarelos avisam sobre sinal 
+  vermelho à frente para desacelerar e preparar parada  
+- Para IA, funciona como sinal verde normal por enquanto  
+- Sinais de cadeia como entrada para múltiplas saídas ficam 
+  amarelos se algum dos sinais seguintes estiver vermelho
+
+\i98098DF1 \bEstradas de mão única\b
+- Agora é fácil colocar estradas de mão única  
+- Veículos respeitam direção e podem ultrapassar mais facilmente  
+- Em cruzamentos, cada linha pode ser bidirecional 
+  (sem setas) ou mão única
+
+\i98098DF1 \bOutros\b
+- Possibilidade de colocar HQ pela janela da empresa  
+- Possibilidade de renomear empresa (HQ)  
+- Corrigido tutorial de Depósito  
+- Adicionada ordenação de mods por ordem alfabética  
+- Adicionado filtro de mods por tipo
+
+\i98098DF0
+09/10/2020
+\i98098DF1 \bPhilip\b
+- Minha amada família cresceu ainda mais e agora tenho um filho
+  chamado Filip Zeleny!  
+- Para comemorar, um novo motor diesel pequeno chamado "Philip" foi adicionado.  
+- Espero que gostem!
+
+\i98098DF0
+08/06/2020
+\i98098DF1 \bDestino de Passageiros\b
+- Nova funcionalidade opcional: passageiros sabem exatamente para
+  onde ir e decidem o melhor veículo, troca de linhas e rota mais rápida  
+- Aplica-se também a correspondência e futuros cargamentos
+  "imediatamente vendidos"  
+- Passageiros pagam pelo trajeto percorrido e aguardam na 
+  estação pelo próximo trem  
+- Apenas passageiros que chegam ao destino contam para
+  crescimento da cidade  
+- Preferem veículos mais rápidos com menos paradas  
+- Funciona também com estação de transbordo fora da cidade  
+- Cada ícone no mapa mostra número de passageiros indo para lá  
+- Cada janela de trem ou estação mostra detalhes clicáveis dos destinos  
+- Overlay novo mostra ocupação das linhas  
+- Para compatibilidade com saves antigos, jogo detecta formato
+  antigoe oferece ativar destino de passageiros, caso contrário 
+  apenas em novo jogo
+
+\i98098DF1 \bOverlays\b
+- Nova janela para controlar overlays  
+- Janela fixa, auto-hide, no canto superior direito com muitas 
+  informações  
+- Overlays são acionados automaticamente, mas é possível forçar
+   qualquer overlay  
+- Overlay de Ocupação mostra cada linha e sua ocupação, cada 
+  estação e cada vagão  
+- Permite identificar linhas com gargalo ou veículos subutilizados  
+- Funciona para todos os tipos de carga e cada tipo pode 
+  ser filtrado
+
+\i98098DF1 \bCorreções\b
+- Corrigido bordas de trilhos/estradas/estações/pontes/túneis no mapa  
+- Corrigido sinal vermelho em depósito ao adicionar em rede existente  
+- Corrigido streaming de texturas (problema Lod baker)  
+- Corrigido crash ao redimensionar janela enquanto gera/carrega jogo  
+- Corrigido colocar estrada sobre trilho com sinais  
+- Corrigido ícone de veículo/estação piscando com autorouting  
+- Corrigido sinal vermelho de depósito ao colocar estrada  
+- Corrigido crash ao colocar depósito na borda do mapa  
+- Corrigido funcionalidade de ícone de câmera  
+- Corrigidos ícones de 2 veículos rodoviários ausentes  
+- Corrigido remoção de item na UI quando adicionado async mesmo tick  
+- Corrigido pass dest com estação de transbordo fora da cidade  
+- Corrigido aba errada ao clicar nos ícones do canto inferior direito  
+- Corrigidos glitches de overlay quando dispositivo perdido  
+- Corrigido crash ao carregar saves antigos
+
+\i98098DF1 \bOutros\b
+- Para modders: flags="overpass_disabled" para WagonType desabilita 
+  overpass, flags="shuntable" permite veículos conectarem-se 
+  (bondes, semirreboques, etc.)  
+- Removido filtro inteligente de ícones (agora melhor utilizado 
+  pela janela overlay)  
+- Adicionada possibilidade de mostrar veículos com rota 
+  passando por esta estação
+
+\i98098DF1 \bOutros\b
+- Para modders: flags="overpass_disabled" para WagonType
+   desabilita overpass, flags="shuntable" permite veículos 
+   conectarem-se (bondes, semirreboques, etc.)  
+- Removido filtro inteligente de ícones (agora melhor 
+  utilizado pela janela overlay)  
+- Adicionada possibilidade de mostrar veículos com 
+  rota passando por esta estação
+
+\i98098DF0
+04/11/2020
+\i98098DF1 \b6ª era!\b
+- 3 novos prédios industriais com upgrades (pedreira de calcário,
+  fábrica de cimento, planta de concreto)  
+- 1 nova loja na cidade  
+- 4 novas locomotivas  
+- 7 novos vagões  
+- 1 upgrade para usinas  
+- 2 upgrades de estação (Armazém e Hotel)  
+- 5 Missões desafiadoras e divertidas (“O Filme” é minha favorita)
+
+\i98098DF1 \bOutros\b
+- Possibilidade de construir túneis submarinos  
+- 1 novo tipo de parede  
+- Paredes podem ser visíveis apenas em inclinação  
+- Velocidade do trilho aumentada para 300 km/h
+
+\i98098DF1 \bCorreções\b
+- Veículos rodoviários não desaceleram ao cruzar ferrovia de múltiplos trilhos  
+- Árvores decorativas em tiles de prédio posicionadas corretamente após carregar  
+- Pedreira e mina de areia inundadas corrigidas  
+- Ícones de prédios no mapa mostram números corretamente (inclusive frações)  
+- Remoção de estrada do jogador corrigida  
+- Bordas de campo visíveis sobre pedreira de areia
+...
+</string>
+</resources>
